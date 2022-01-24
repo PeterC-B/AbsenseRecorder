@@ -71,6 +71,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6676502279F408300B667FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6676503279F408A00B667FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6CF8850279F30640059A913 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F6CF8842279F30640059A913 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +109,9 @@
 		F6CF884D279F30640059A913 /* AbsenseRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				F6676503279F408A00B667FA /* View */,
+				F6676502279F408300B667FA /* Model */,
 				F6CF884E279F30640059A913 /* AbsenseRecorderApp.swift */,
-				F6CF8850279F30640059A913 /* ContentView.swift */,
 				F6CF8852279F30660059A913 /* Assets.xcassets */,
 				F6CF8854279F30660059A913 /* Preview Content */,
 			);
