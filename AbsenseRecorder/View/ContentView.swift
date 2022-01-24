@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ScrollView{
+            ForEach(Division.examples) { divisionExample in
+                Text("")
+                Text("\(divisionExample.code) Division:")
+                    .font(.title)
+                ForEach(divisionExample.students) { student in
+                    Text("")
+                    Text(student.forename)
+                    Text(student.surname)
+                    Text(student.birthday, style: .time)
+                    Text("")
+                    
+                }
+                Text("")
+                
+            }
+        }
+        
     }
 }
 
