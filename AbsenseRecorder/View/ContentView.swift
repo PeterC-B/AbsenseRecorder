@@ -8,9 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    var divisions: [Division]
+    @State private var currentDate: Date = Date()
+    
     var body: some View {
-        ScrollView{
-            ForEach(Division.examples) { divisionExample in
+        NavigationView{
+            
+            List(divisions, id: \.self.code){ division in
+                DivisionItem(division: division)
+            }
+            .navigationTitle(currentDate.getShortDate())
+            .toolbar{
+                ToolbarItem(placement: .navigationBarLeading){
+                    Button(action: { currentDate = currentDate.previousDay() }) {
+                        Image(systemName: "arrow.backward")
+                    }
+                }
+                ToolbarItem(placement: .navigationBarTrailing){
+                    Button(action: { currentDate = currentDate.nextDay() }) {
+                        Image(systemName: "arrow.forward")
+                    }
+                }
+            }
+            /*
+            ForEach(divisions) { divisionExample in
                 Text("")
                 Text("\(divisionExample.code) Division:")
                     .font(.title)
@@ -25,13 +46,16 @@ struct ContentView: View {
                 Text("")
                 
             }
+             */
         }
         
     }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(divisions: Division.examples)
     }
 }

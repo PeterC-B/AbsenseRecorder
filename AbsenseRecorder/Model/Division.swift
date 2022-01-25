@@ -20,8 +20,8 @@ class Division: Identifiable {
         let division = Division(code: code)
         
         //Loop as many times as the parameter size
-        for i in 1...10 {
-            let student = Student(forename: "Firstname \(i)", surname: "Surname \(i)", birthday: Date.now )
+        for i in 1...size {
+            let student = Student(forename: "Firstname \(i)", surname: "Surname \(i)", birthday: Date() )
             division.students.append(student)
         }
         return division
