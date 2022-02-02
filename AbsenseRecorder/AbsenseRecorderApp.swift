@@ -11,7 +11,8 @@ import SwiftUI
 struct AbsenseRecorderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(divisions: Division.examples)
+            RootTabView()
+                .environmentObject(StateController())
         }
     }
 }
