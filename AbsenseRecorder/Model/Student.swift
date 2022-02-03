@@ -18,4 +18,9 @@ class Student: Identifiable {
         self.birthday = birthday
         
     }
+    
+    #if DEBUG
+    static let example = Student(forename: "Roberto", surname: "Baggio", birthday: Date())
+    static let examples = [example]
+    #endif
 }
