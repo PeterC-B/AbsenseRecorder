@@ -14,7 +14,7 @@
 		F68C4B2227AA6D0900D88781 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C4B2127AA6D0900D88781 /* StatisticsView.swift */; };
 		F68C4B2427AA6EAC00D88781 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68C4B2327AA6EAC00D88781 /* StateController.swift */; };
 		F6CF884F279F30640059A913 /* AbsenseRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF884E279F30640059A913 /* AbsenseRecorderApp.swift */; };
-		F6CF8851279F30640059A913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF8850279F30640059A913 /* ContentView.swift */; };
+		F6CF8851279F30640059A913 /* DivisionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF8850279F30640059A913 /* DivisionsView.swift */; };
 		F6CF8853279F30660059A913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CF8852279F30660059A913 /* Assets.xcassets */; };
 		F6CF8856279F30660059A913 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CF8855279F30660059A913 /* Preview Assets.xcassets */; };
 		F6CF8860279F30660059A913 /* AbsenseRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF885F279F30660059A913 /* AbsenseRecorderTests.swift */; };
@@ -50,7 +50,7 @@
 		F68C4B2327AA6EAC00D88781 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		F6CF884B279F30640059A913 /* AbsenseRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbsenseRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CF884E279F30640059A913 /* AbsenseRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenseRecorderApp.swift; sourceTree = "<group>"; };
-		F6CF8850279F30640059A913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6CF8850279F30640059A913 /* DivisionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionsView.swift; sourceTree = "<group>"; };
 		F6CF8852279F30660059A913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6CF8855279F30660059A913 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6CF885B279F30660059A913 /* AbsenseRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsenseRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +99,7 @@
 		F6676503279F408A00B667FA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F6CF8850279F30640059A913 /* ContentView.swift */,
+				F6CF8850279F30640059A913 /* DivisionsView.swift */,
 				F6FB3A1E27A09CCE00A5D7AF /* DivisionItem.swift */,
 				F68C4B1D27AA6AE200D88781 /* AbsenceView.swift */,
 				F68C4B1F27AA6C6F00D88781 /* RootTabView.swift */,
@@ -305,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6CF8851279F30640059A913 /* ContentView.swift in Sources */,
+				F6CF8851279F30640059A913 /* DivisionsView.swift in Sources */,
 				F6FB3A1D27A098FC00A5D7AF /* Date.swift in Sources */,
 				F68C4B2027AA6C6F00D88781 /* RootTabView.swift in Sources */,
 				F6676505279F467700B667FA /* Student.swift in Sources */,
