@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Student: Identifiable {
+class Student: Identifiable, Codable {
     let forename: String
     let surname: String
     let birthday: Date

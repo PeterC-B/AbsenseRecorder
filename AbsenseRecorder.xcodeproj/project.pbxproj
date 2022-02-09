@@ -24,6 +24,7 @@
 		F6CF8860279F30660059A913 /* AbsenseRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF885F279F30660059A913 /* AbsenseRecorderTests.swift */; };
 		F6CF886A279F30660059A913 /* AbsenseRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF8869279F30660059A913 /* AbsenseRecorderUITests.swift */; };
 		F6CF886C279F30660059A913 /* AbsenseRecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF886B279F30660059A913 /* AbsenseRecorderUITestsLaunchTests.swift */; };
+		F6E7706C27B462DC0070FA63 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7706B27B462DC0070FA63 /* FileManager.swift */; };
 		F6FB3A1D27A098FC00A5D7AF /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB3A1C27A098FC00A5D7AF /* Date.swift */; };
 		F6FB3A1F27A09CCE00A5D7AF /* DivisionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB3A1E27A09CCE00A5D7AF /* DivisionItem.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		F6CF8865279F30660059A913 /* AbsenseRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsenseRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CF8869279F30660059A913 /* AbsenseRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenseRecorderUITests.swift; sourceTree = "<group>"; };
 		F6CF886B279F30660059A913 /* AbsenseRecorderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenseRecorderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6E7706B27B462DC0070FA63 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		F6FB3A1C27A098FC00A5D7AF /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		F6FB3A1E27A09CCE00A5D7AF /* DivisionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				F6FB3A1C27A098FC00A5D7AF /* Date.swift */,
+				F6E7706B27B462DC0070FA63 /* FileManager.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				F6CF8851279F30640059A913 /* DivisionsView.swift in Sources */,
 				F6FB3A1D27A098FC00A5D7AF /* Date.swift in Sources */,
 				F68C4B2027AA6C6F00D88781 /* RootTabView.swift in Sources */,
+				F6E7706C27B462DC0070FA63 /* FileManager.swift in Sources */,
 				F6898E5127AC729F00D65D6E /* StudentAbsence.swift in Sources */,
 				F6676505279F467700B667FA /* Student.swift in Sources */,
 				F695F73B27AC6C5E00E22A70 /* AbsenceItem.swift in Sources */,
